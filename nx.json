@@ -20,7 +20,7 @@
   },
   "projects": {
     "frontend-barman": {
-      "tags": []
+      "tags": ["scope:frontend-barman"]
     },
     "frontend/barman-e2e": {
       "tags": [],
