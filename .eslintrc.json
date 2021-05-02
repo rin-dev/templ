@@ -12,7 +12,8 @@
             "enforceBuildableLibDependency": true,
             "allow": [],
             "depConstraints": [
-              { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] }
+              { "sourceTag": "scope:frontend-barman", "onlyDependOnLibsWithTags": ["scope:frontend-barman"] },
+              { "sourceTag": "scope:frontend-admin", "onlyDependOnLibsWithTags": ["scope:frontend-admin"] }
             ]
           }
         ]
