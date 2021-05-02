@@ -21,6 +21,11 @@
     "frontend/admin-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend-admin"]
+    },
+    "frontend-terminal": { "tags": ["scope:frontend-terminal"] },
+    "frontend/terminal-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frontend-terminal"]
     }
   }
 }

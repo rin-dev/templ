@@ -13,7 +13,8 @@
             "allow": [],
             "depConstraints": [
               { "sourceTag": "scope:frontend-barman", "onlyDependOnLibsWithTags": ["scope:frontend-barman"] },
-              { "sourceTag": "scope:frontend-admin", "onlyDependOnLibsWithTags": ["scope:frontend-admin"] }
+              { "sourceTag": "scope:frontend-admin", "onlyDependOnLibsWithTags": ["scope:frontend-admin"] },
+              { "sourceTag": "scope:frontend-terminal", "onlyDependOnLibsWithTags": ["scope:frontend-terminal"] }
             ]
           }
         ]
