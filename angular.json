@@ -52,7 +52,10 @@
               "apps/frontend/barman/src/favicon.ico",
               "apps/frontend/barman/src/assets"
             ],
-            "styles": ["apps/frontend/barman/src/styles.scss"],
+            "styles": ["apps/frontend/barman/src/styles/styles.scss"],
+            "stylePreprocessorOptions": {
+              "includePaths": ["apps/frontend/barman/src/styles"]
+            },
             "scripts": []
           },
           "configurations": {
