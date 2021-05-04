@@ -1,0 +1,5 @@
+# Declare comon scalar type
+scalar Data
+scalar JSON
+scalar Upload
+
