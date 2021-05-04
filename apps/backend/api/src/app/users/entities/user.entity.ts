@@ -1,7 +1,5 @@
-
 import {Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn} from "typeorm";
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import {IUser} from "@autodomkst/shared/data-access/interfaces";
+import type {IUser} from "@autodomkst/shared/data-access/interfaces";
 
 @Entity({
   name: 'users'

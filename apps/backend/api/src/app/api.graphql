@@ -1,6 +1,6 @@
 # Declare comon scalar type
-scalar Data
+scalar Date
 scalar JSON
 scalar Upload
 
-type Query{}
+type Query
