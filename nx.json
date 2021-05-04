@@ -12,20 +12,21 @@
     }
   },
   "projects": {
-    "frontend-barman": { "tags": ["scope:frontend-barman"] },
+    "frontend-barman": { "tags": ["scope:frontend-barman", "type:app"] },
     "frontend/barman-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend-barman"]
     },
-    "frontend-admin": { "tags": ["scope:frontend-admin"] },
+    "frontend-admin": { "tags": ["scope:frontend-admin", "type:app"] },
     "frontend/admin-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend-admin"]
     },
-    "frontend-terminal": { "tags": ["scope:frontend-terminal"] },
+    "frontend-terminal": { "tags": ["scope:frontend-terminal", "type:app"] },
     "frontend/terminal-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend-terminal"]
-    }
+    },
+    "backend-api": { "tags": ["type:app"] }
   }
 }
