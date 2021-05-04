@@ -12,9 +12,9 @@
             "enforceBuildableLibDependency": true,
             "allow": [],
             "depConstraints": [
-              { "sourceTag": "scope:frontend-barman", "onlyDependOnLibsWithTags": ["scope:frontend-barman"] },
-              { "sourceTag": "scope:frontend-admin", "onlyDependOnLibsWithTags": ["scope:frontend-admin"] },
-              { "sourceTag": "scope:frontend-terminal", "onlyDependOnLibsWithTags": ["scope:frontend-terminal"] }
+              { "sourceTag": "scope:frontend-barman", "onlyDependOnLibsWithTags": ["scope:frontend-barman", "type:lib"] },
+              { "sourceTag": "scope:frontend-admin", "onlyDependOnLibsWithTags": ["scope:frontend-admin", "type:lib"] },
+              { "sourceTag": "scope:frontend-terminal", "onlyDependOnLibsWithTags": ["scope:frontend-terminal", "type:lib"] }
             ]
           }
         ]

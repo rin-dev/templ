@@ -1,70 +1,33 @@
 {
   "implicitDependencies": {
-    "package.json": {
-      "dependencies": "*",
-      "devDependencies": "*"
-    },
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
     ".eslintrc.json": "*"
   },
-  "affected": {
-    "defaultBase": "master"
-  },
+  "affected": { "defaultBase": "master" },
   "npmScope": "autodomkst",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ]
-      }
+      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
     }
   },
   "projects": {
-    "frontend-barman": {
-      "tags": [
-        "scope:frontend-barman",
-        "type:app"
-      ]
-    },
+    "frontend-barman": { "tags": ["scope:frontend-barman", "type:app"] },
     "frontend/barman-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "frontend-barman"
-      ]
+      "implicitDependencies": ["frontend-barman"]
     },
-    "frontend-admin": {
-      "tags": [
-        "scope:frontend-admin",
-        "type:app"
-      ]
-    },
+    "frontend-admin": { "tags": ["scope:frontend-admin", "type:app"] },
     "frontend/admin-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "frontend-admin"
-      ]
+      "implicitDependencies": ["frontend-admin"]
     },
-    "frontend-terminal": {
-      "tags": [
-        "scope:frontend-terminal",
-        "type:app"
-      ]
-    },
+    "frontend-terminal": { "tags": ["scope:frontend-terminal", "type:app"] },
     "frontend/terminal-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "frontend-terminal"
-      ]
+      "implicitDependencies": ["frontend-terminal"]
     },
-    "backend-api": {
-      "tags": [
-        "type:app",
-        "scope:backend-api"
-      ]
-    }
+    "backend-api": { "tags": ["type:app", "scope:backend-api"] },
+    "ui-component": { "tags": ["type:lib", "scope:ui-lib"] }
   }
 }
