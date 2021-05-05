@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@autodomkst/ui-component": ["libs/ui-component/src/index.ts"]
+      "@autodomkst/ui-component": ["libs/ui-component/src/index.ts"],
+      "@autodomkst/shared/data-access/interfaces": [
+        "libs/shared/data-access/interfaces/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

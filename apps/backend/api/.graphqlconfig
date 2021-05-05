@@ -1,12 +1,21 @@
 {
   "name": "Backend API GraphQL Schema",
-  "schemaPath": "schema.graphql",
+  "schemaPath": "api-app.graphql",
+  "projects": {
+    "api": {
+      "includes": [
+        "./users/*.graphql",
+        "./auth/*.graphql"
+      ]
+    }
+  },
   "extensions": {
     "endpoints": {
       "Default GraphQL Endpoint": {
         "url": "http://localhost:3333/graphql",
         "headers": {
-          "user-agent": "JS GraphQL"
+          "user-agent": "JS GraphQL",
+          "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcklkIjoxLCJpYXQiOjE2MjAyMDA4NjUsImV4cCI6MTYyMDM1MDg2NX0.I6E7Oxaxz2SrW_iOGv0QUZpPZ6PPLTG9JMcDtRIFE-E"
         },
         "introspect": false
       }
