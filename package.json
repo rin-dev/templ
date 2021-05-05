@@ -94,6 +94,7 @@
     "@nestjs/testing": "^7.0.0",
     "@nrwl/cli": "12.1.0",
     "@nrwl/cypress": "12.1.0",
+    "@compodoc/compodoc": "^1.1.11",
     "@nrwl/eslint-plugin-nx": "12.1.0",
     "@nrwl/jest": "12.1.0",
     "@nrwl/linter": "12.1.0",
