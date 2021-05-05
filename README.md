@@ -1,4 +1,4 @@
-
+[![Documentation](https://github.com/rin-dev/templ/actions/workflows/generateDocs.yml/badge.svg)](https://github.com/rin-dev/templ/actions/workflows/generateDocs.yml)
 
 # Autodomkst
 
