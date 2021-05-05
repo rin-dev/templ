@@ -8,12 +8,12 @@ export default {
     synchronize: true,
     logging: true,
     entities: [
-    'dist/apps/backend/api/src/**/*.entity{.ts, .js}',
+    'dist/apps/backend/api/src/**/*.entity.js',
   ],
     migrations: [
-    'dist/apps/backend/api/src/migrations/*{.ts, .js}',
+    'dist/apps/backend/api/src/migrations/*.js',
   ],
     cli: {
-    'migrationsDir': 'migrations',
+    'migrationsDir': 'apps/backend/api/src/migrations',
   },
 }
